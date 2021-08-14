@@ -56,10 +56,13 @@ body {
 }
 
 /* navbar css */
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+SC&display=swap");
+
 
 body {
   overflow-x: hidden;
-  /* font-family: Sans-Serif; */
+  font-family: 'Noto Sans SC', sans-serif;
+ 
   margin: 0;
 }
 
