@@ -1,8 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
 /* background waves */
 
 html,
 body {
   height: 100%;
+  font-family: 'Poppins', sans-serif;
 }
 body {
   background: radial-gradient(
@@ -56,12 +59,12 @@ body {
 }
 
 /* navbar css */
-@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+SC&display=swap");
+
 
 
 body {
   overflow-x: hidden;
-  font-family: 'Noto Sans SC', sans-serif;
+
  
   margin: 0;
 }
@@ -235,3 +238,39 @@ body {
   }
 }
 /* wave heading */
+
+
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	
+}
+.liquid {
+	position: relative;
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-content: flex-start;
+	
+	
+}
+.liquid h2 {
+	position: absolute;
+	font-size: 10vw;
+	
+}
+.liquid h2:nth-child(1) {
+	color: #fff;
+	text-shadow: -2px 2px 0px #183954,
+	-4px 4px 0px #183954,
+	-6px 6px 0px #183954,
+	-8px 8px 0px #183954,
+	-18px 18px 20px rgba(0, 0, 0, 0.5),
+	-18px 18px 50px rgba(0, 0, 0, 0.5);
+}
+.liquid h2:nth-child(2){
+	color: #2196f3;
+}
